@@ -9,8 +9,10 @@ Make sure you have docker installed on your machine.
 Simply run the following command to start the project:
 
 ```bash
-make
+make # To run the project
 ```
+
+
 
 This will start a MongoDB container and an Express.js container. The Express.js container will be available on port 3000.
 
@@ -27,3 +29,10 @@ You can use the following endpoints to interact with the API:
 `/books/:id` - PUT - Update a book by id
 
 `/books/:id` - DELETE - Delete a book by id
+
+### Stop and deleting the containers
+
+```bash
+make down # To stop the project
+make clean # To delete all the containers
+```
