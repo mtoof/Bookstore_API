@@ -19,7 +19,11 @@ This will start a MongoDB container and an Express.js container. The Express.js 
 You can use the following endpoints to interact with the API:
 
 `/books` - GET - Get all books
+
 `/books/:id` - GET - Get a book by id
+
 `/books/` - POST - Create a new book
+
 `/books/:id` - PUT - Update a book by id
+
 `/books/:id` - DELETE - Delete a book by id
