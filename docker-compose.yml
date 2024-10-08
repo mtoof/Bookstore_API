@@ -1,0 +1,17 @@
+networks:
+    my-network:
+
+services:
+  npm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    networks:
+      - my-network
+    
+  mongo:
+    image: mongodb/mongodb-community-server:latest
+    networks:
+      - my-network
