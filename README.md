@@ -1,6 +1,7 @@
 ### Mogodb-Express.js
 
 This is a simple project to demonstrate how to use MongoDB with Express.js. The project is a simple REST API that allows you to create, read, update and delete objects from a MongoDB database.
+I have dockerized all the project.
 
 ### Installation
 
